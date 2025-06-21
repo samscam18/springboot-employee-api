@@ -17,6 +17,10 @@ public class Employees {
     public List<Employee> getAllEmployees(){
         return employeeList;
     }
+
+    public void addEmployee(Employee employee){
+        this.employeeList.add(employee);
+    }
     
 
 }
